@@ -1,0 +1,33 @@
+
+.box2{
+  width: 40%;
+}
+
+input{
+  border-radius: 5px;
+}
+p{
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+.sticky{
+  position: sticky;
+  top: 20px;
+}
+
+@media (max-width: 500px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(203, 184, 184);
+    border-radius: 10px;
+
+  }
+  .box2{
+    width: 80%;
+    outline-color: blue;
+    overflow: hidden;
+  }
+}
